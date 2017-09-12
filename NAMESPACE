@@ -1,0 +1,6 @@
+import("matrixStats")
+import("fitdistrplus")
+
+importFrom("stats", "ecdf", "qnorm", "rnorm", "runif", "pbeta")
+
+exportPattern("omnibus.test", "hc.test")
